@@ -27,6 +27,8 @@
 	"dependencies": {
 		"@commitlint/config-conventional": "^8.2.0",
 		"@commitlint/core": "^17.6.3",
+		"@octokit/webhooks": "^11.0.0",
+		"octokit": "^2.0.14",
 		"probot": "^12.3.0"
 	},
 	"devDependencies": {
