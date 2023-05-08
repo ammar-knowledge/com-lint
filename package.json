@@ -1,10 +1,10 @@
 {
-	"name": "probot-commitlint",
+	"name": "com-bot",
 	"version": "0.0.0-development",
 	"description": "A GitHub App that runs commitlint for you",
-	"author": "Ahmed T. Ali <ah.tajelsir@gmail.com> (https://ahmed.sd)",
+	"author": "Ammar Ahmed Butt <ammar.butt@atlassiancommunity.com> (https://ammarahmed.cf)",
 	"license": "MIT",
-	"repository": "https://github.com/z0al/commitlint-bot.git",
+	"repository": "https://github.com/Ammar-Knowledge/com-bot.git",
 	"keywords": [
 		"validate",
 		"commit",

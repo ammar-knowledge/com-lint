@@ -11,13 +11,9 @@ const events = require('./events');
 const repo = { owner: 'user', repo: 'repo' };
 
 let robot, github;
-
 beforeEach(() => {
-	// Here we create a robot instance
 	robot = createRobot();
-	// Here we initialize the app on the robot instance
 	app(robot);
-	// Mock GitHub client
 	github = {
 		issues: {
 			createComment: jest.fn(),
