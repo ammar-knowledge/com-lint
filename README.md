@@ -1,6 +1,5 @@
-# commitlint [bot]
+# com [bot]
 
-[![Travis](https://img.shields.io/travis/z0al/commitlint-bot.svg)](https://travis-ci.org/z0al/commitlint-bot)
 [![npm](https://img.shields.io/npm/v/commitlint-bot.svg)](https://www.npmjs.com/package/commitlint-bot)
 
 <p align="center">
@@ -30,22 +29,22 @@ For best results, enable branch protection (in the repository's settings) and re
 
 ![branch-protection-screenshot][]
 
-[apps]: https://github.com/apps/commitlint
+[apps]: https://github.com/apps/com-bot
 [status-check-screenshot]: docs/status.png
 [status-comment-screenshot]: docs/comment.png
 [branch-protection-screenshot]: docs/setting.png
 
 ## What is missing?
 
-We don't currently support custom configuration (i.e. `.commitlint.yml` or `.commitlint.json`), but [we will](https://github.com/z0al/commitlint-bot/issues/1)
+We don't currently support custom configuration (i.e. `.commitlint.yml` or `.commitlint.json`), but [we will](https://github.com/Ammar-Knowledge/com-bot/issues/1)
 
 ## Development
 
 1.  Setup the repo:
 
 ```shell
-git clone https://github.com/z0al/commitlint-bot.git
-cd commitlint-bot
+git clone https://github.com/Ammar-Knowledge/com-bot.git
+cd com-bot
 npm install
 ```
 
@@ -66,10 +65,7 @@ Robot designed by [Freepik](https://www.freepik.com/free-vector/fun-pack-of-robo
 
 Inspired by the awesome work of Tom Vincent in their [validate-commit-msg-bot](https://github.com/tlvince/validate-commit-msg-bot) package.
 
-## Like it?
-
-Give it a star(:star:) :point_up_2:
 
 ## License
 
-MIT © [Ahmed T. Ali](https://github.com/z0al)
+MIT © [Ammar-Ahmed-Butt](https://github.com/ammar-ahmed-butt)
