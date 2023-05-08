@@ -1,5 +1,5 @@
 // Ours
-const { app } = require("octokit");
+const { Octokit, App } = require("octokit");
 const commitlint = require("./lib/lint");
 
 module.exports = app => {
