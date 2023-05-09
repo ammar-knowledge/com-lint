@@ -1,4 +1,4 @@
-# com [bot]
+# com-lint [bot]
 
 [![npm](https://img.shields.io/npm/v/commitlint-bot.svg)](https://www.npmjs.com/package/commitlint-bot)
 
@@ -29,22 +29,22 @@ For best results, enable branch protection (in the repository's settings) and re
 
 ![branch-protection-screenshot][]
 
-[apps]: https://github.com/apps/com-bot
+[apps]: https://github.com/apps/com-lint
 [status-check-screenshot]: docs/status.png
 [status-comment-screenshot]: docs/comment.png
 [branch-protection-screenshot]: docs/setting.png
 
 ## What is missing?
 
-We don't currently support custom configuration (i.e. `.commitlint.yml` or `.commitlint.json`), but [we will](https://github.com/Ammar-Knowledge/com-bot/issues/1)
+We don't currently support custom configuration (i.e. `.commitlint.yml` or `.commitlint.json`), but [we will](https://github.com/Ammar-Knowledge/com-lint/issues)
 
 ## Development
 
 1.  Setup the repo:
 
 ```shell
-git clone https://github.com/Ammar-Knowledge/com-bot.git
-cd com-bot
+git clone https://github.com/Ammar-Knowledge/com-lint.git
+cd com-lint
 npm install
 ```
 
