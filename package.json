@@ -1,10 +1,10 @@
 {
-	"name": "com-bot",
-	"version": "0.0.0-development",
+	"name": "com-lint",
+	"version": "0.0.1-development",
 	"description": "A GitHub App that runs commitlint for you",
 	"author": "Ammar Ahmed Butt <ammar.butt@atlassiancommunity.com> (https://ammarahmed.cf)",
 	"license": "MIT",
-	"repository": "https://github.com/Ammar-Knowledge/com-bot.git",
+	"repository": "https://github.com/Ammar-Knowledge/com-lint.git",
 	"keywords": [
 		"validate",
 		"commit",
