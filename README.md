@@ -14,7 +14,7 @@ and sets an appropriate status check.
 ## Usage
 
 1.  Browse to [GitHub Apps - commitlint][apps]
-2.  Accept the permissions
+2.  Accept the permissions 
 3.  Allow access to repositories
 
 On the next pull request, a status check from `commitlint` will appear:
