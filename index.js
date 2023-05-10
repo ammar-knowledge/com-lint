@@ -1,10 +1,9 @@
 // Ours
-const { Octokit, App } = require("octokit");
 const commitlint = require("./lib/lint");
 
-module.exports = app => {
+module.exports = robot => {
   // For more information on building apps:
   // https://probot.github.io/docs/
-  app.on("pull_request.opened", commitlint);
-  app.on("pull_request.synchronize", commitlint);
+  robot.on("pull_request.opened", commitlint);
+  robot.on("pull_request.synchronize", commitlint);
 };
