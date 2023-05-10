@@ -26,7 +26,9 @@
 	],
 	"dependencies": {
 		"@commitlint/core": "^17.6.3",
+		"@commitlint/parse": "^17.4.4",
 		"@octokit/webhooks": "^11.0.0",
+		"commitlint": "^17.6.3",
 		"conventional-changelog-conventionalcommits": "^5.0.0",
 		"minimist": "^1.2.8",
 		"octokit": "^2.0.14",
