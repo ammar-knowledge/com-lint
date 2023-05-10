@@ -1,6 +1,6 @@
 {
 	"name": "com-lint",
-	"version": "0.0.1-development",
+	"version": "0.0.0-development",
 	"description": "A GitHub App that runs commitlint for you",
 	"author": "Ammar Ahmed Butt <ammar.butt@atlassiancommunity.com> (https://ammarahmed.cf)",
 	"license": "MIT",
@@ -15,7 +15,7 @@
 	],
 	"main": "index.js",
 	"scripts": {
-		"now-start": "npm start",
+		"now-start": "PRIVATE_KEY=$(echo $PRIVATE_KEY | base64 -d) npm start",
 		"start": "probot run ./index.js",
 		"test": "jest"
 	},
