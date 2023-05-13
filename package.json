@@ -28,7 +28,7 @@
 		"@commitlint/core": "^17.6.3",
 		"@commitlint/parse": "^17.4.4",
 		"@commitlint/types": "^17.4.4",
-		"@commitlint/utils": "^6.0.2",
+		"@commitlint/utils": "^6.1.3",
 		"@octokit/webhooks": "^11.0.0",
 		"commitlint": "^17.6.3",
 		"conventional-changelog-conventionalcommits": "^5.0.0",
