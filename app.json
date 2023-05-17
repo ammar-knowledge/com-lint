@@ -4,7 +4,7 @@
   "keywords": ["validate", "commit", "pr", "conventional", "git", "probot-app"],
   "repository": "https://github.com/Ammar-Knowledge/com-lint",
   "env": {
-    "PRIVATE_KEY": {
+    "PRIVATE_KEY_PATH": {
       "description": "the private key of your GitHub App."
     },
     "APP_ID": {
