@@ -1,6 +1,6 @@
 {
 	"name": "com-lint",
-	"version": "0.0.1-development",
+	"version": "0.0.0-development",
 	"description": "A GitHub App that runs commitlint for you",
 	"author": "Ammar Ahmed Butt <ammar.butt@atlassiancommunity.com> (https://ammarahmed.cf)",
 	"license": "MIT",
@@ -15,7 +15,7 @@
 	],
 	"main": "index.js",
 	"scripts": {
-		"now-start": "npm start",
+		"now-start": "PRIVATE_KEY=$(echo $PRIVATE_KEY | base64 -d) npm start",
 		"start": "probot run ./index.js",
 		"test": "jest"
 	},
@@ -28,7 +28,7 @@
 		"@commitlint/core": "^17.6.3",
 		"@commitlint/parse": "^17.4.4",
 		"@commitlint/types": "^17.4.4",
-		"@commitlint/utils": "^6.0.2",
+		"@commitlint/utils": "^8.3.6",
 		"@octokit/webhooks": "^11.0.0",
 		"commitlint": "^17.6.3",
 		"conventional-changelog-conventionalcommits": "^5.0.0",
@@ -44,8 +44,8 @@
 		"smee-client": "^1.2.3"
 	},
 	"engines": {
-		"node": ">=8.x",
-		"npm": ">=5.5.x"
+		"node": "18.x",
+		"npm": "9.6.x"
 	},
 	"jest": {
 		"testEnvironment": "node"
