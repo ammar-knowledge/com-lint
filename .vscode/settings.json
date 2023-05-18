@@ -2,5 +2,12 @@
     "eslint.alwaysShowStatus": true,
     "npm-intellisense.showBuildInLibs": true,
     "npm-intellisense.scanDevDependencies": true,
-    "githubPullRequests.notifications": "pullRequests"
+    "githubPullRequests.notifications": "pullRequests",
+    "eslint.format.enable": true,
+    "eslint.lintTask.enable": true,
+    "eslint.problems.shortenToSingleLine": true,
+    "eslint.useESLintClass": true,
+    "git.alwaysSignOff": true,
+    "git.autofetch": true,
+    "git.branchRandomName.enable": false
 }
