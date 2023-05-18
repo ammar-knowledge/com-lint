@@ -28,7 +28,7 @@
 		"@commitlint/core": "^17.6.3",
 		"@commitlint/parse": "^17.4.4",
 		"@commitlint/types": "^17.4.4",
-		"@commitlint/utils": "^8.3.6",
+		"@commitlint/utils": "^6.0.2",
 		"@octokit/webhooks": "^11.0.0",
 		"commitlint": "^17.6.3",
 		"conventional-changelog-conventionalcommits": "^5.0.0",
@@ -39,6 +39,7 @@
 	"devDependencies": {
 		"@commitlint/cli": "^17.6.3",
 		"@commitlint/config-conventional": "^17.6.3",
+		"eslint": "^8.40.0",
 		"jest": "^29.5.0",
 		"smee-client": "^1.2.3"
 	},
