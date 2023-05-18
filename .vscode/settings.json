@@ -1,3 +1,6 @@
 {
-    "eslint.alwaysShowStatus": true
+    "eslint.alwaysShowStatus": true,
+    "npm-intellisense.showBuildInLibs": true,
+    "npm-intellisense.scanDevDependencies": true,
+    "githubPullRequests.notifications": "pullRequests"
 }
