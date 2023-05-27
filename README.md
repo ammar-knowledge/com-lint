@@ -2,6 +2,10 @@
 
 [![npm](https://img.shields.io/npm/v/commitlint-bot.svg)](https://www.npmjs.com/package/commitlint-bot)
 
+[![npm](https://img.shields.io/npm/v/@ammar-ahmed/automation-app-bot.svg)](https://www.npmjs.com/package/@ammar-ahmed/automation-app-bot)
+
+
+
 <p align="center">
   <img src="docs/robot.svg" width="256" alt="commitlint logo" />
 </p>
