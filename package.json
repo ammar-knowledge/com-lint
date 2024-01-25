@@ -36,7 +36,7 @@
 		"jsonc-parser": "^3.2.0",
 		"minimist": "^1.2.8",
 		"octokit": "^3.0.0",
-		"probot": "^12.3.0"
+		"probot": "^13.0.0"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^18.0.0",
